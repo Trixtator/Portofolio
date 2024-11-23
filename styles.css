@@ -33,7 +33,7 @@ header {
     width: 100%;
     background: rgba(0, 0, 0, 0.95);
     z-index: 1000;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 2px 10px hsla(205, 100%, 50%, 0.706);
     transition: transform 0.3s ease;
 }
 
@@ -112,8 +112,7 @@ nav {
     height: 400px;
     border-radius: 50%;
     object-fit: cover;
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.3);
-    border: 5px solid var(--accent-color);
+    box-shadow: 0 10px 30px  hsla(205, 100%, 50%, 0.706);
 }
 
 .hero h1 {
@@ -204,7 +203,7 @@ nav {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.706);
+    box-shadow: 0 5px 15px hsla(205, 100%, 50%, 0.706);
     flex: 1 1 calc(33.333% - 20px);
 }
 
@@ -263,7 +262,7 @@ nav {
     background-color: var(--primary-color);
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.575);
+    box-shadow: 0 5px 15px hsla(205, 100%, 50%, 0.706);
     transition: transform 0.3s ease;
 }
 
@@ -398,7 +397,7 @@ footer {
         flex-direction: column;
         padding: 20px;
         text-align: center;
-        box-shadow: 0 2px 10px rgba(255, 255, 255, 0.655);
+        box-shadow: 0 2px 10px  hsla(205, 100%, 50%, 0.706);
     }
 
     .nav-links.active {
@@ -485,6 +484,7 @@ footer {
         justify-content: center;
         margin-top: 30px;
         transform: none;
+        
     }
 
     .social-links a {
@@ -494,3 +494,6 @@ footer {
     }
 }
 
+.background custom {
+    background: #3a80d2;
+}

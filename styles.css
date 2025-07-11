@@ -474,8 +474,14 @@ footer {
 }
 
 /* Social media specific colors on hover */
-.social-links a:hover .fa-instagram { color: #E1306C; }
-.social-links a:hover .fa-whatsapp { color: #25D366; }
+.fa-instagram { color: #E4405F; }
+.fa-whatsapp { color: #25D366; }
+.fa-github { color: #333; }
+
+.social-icon:hover {
+  opacity: 0.8;
+}
+
 /* Responsive adjustments for social links */
 @media (max-width: 968px) {
     .social-links {

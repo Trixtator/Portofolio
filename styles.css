@@ -497,3 +497,14 @@ footer {
 .background custom {
     background: #3a80d2;
 }
+.social-icon {
+  color: #555; /* Default abu-abu */
+  font-size: 24px;
+  margin-right: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #007bff; /* Warna biru saat hover */
+}
+
